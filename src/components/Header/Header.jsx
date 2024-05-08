@@ -5,6 +5,7 @@ import {
   HeaderUserContainer,
   HeaderUserData,
   HeaderUserIcon,
+  HeaderUserName,
   HeaderExitButton,
 } from "./HeaderStyles.js";
 
@@ -22,7 +23,7 @@ const Header = () => {
           <HeaderUserData>
             {/* Placeholder img do podmianki */}
             <HeaderUserIcon src="https://placehold.co/32x32" alt="User icon" />
-            <p>User name</p>
+            <HeaderUserName>User name</HeaderUserName>
           </HeaderUserData>
           <HeaderExitButton>Exit</HeaderExitButton>
         </HeaderUserContainer>

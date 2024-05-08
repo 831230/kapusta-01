@@ -11,7 +11,7 @@ export const HeaderWrapper = styled.div`
   align-items: center;
   width: 1280px;
 
-  margin: 12px;
+  padding: 12px;
 `;
 
 export const HeaderLogoLink = styled.a``;
@@ -35,12 +35,19 @@ export const HeaderUserIcon = styled.img`
   border-radius: 50%;
 `;
 
+export const HeaderUserName = styled.p`
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+`;
+
 export const HeaderExitButton = styled.button`
   border: none;
   background: none;
   padding: 0;
   margin: 0;
-  font: inherit;
+  font-size: 12px;
+
   color: #52555f;
   cursor: pointer;
   border-bottom: 1px solid #52555f;
