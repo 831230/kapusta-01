@@ -35,6 +35,10 @@ export const HeaderUserData = styled.div`
   justify-content: center;
   align-items: center;
   gap: 12px;
+
+  @media screen and (max-width: 768px) {
+    gap: 16px;
+  }
 `;
 export const HeaderUserIcon = styled.img`
   width: 32px;
@@ -54,6 +58,7 @@ export const HeaderExitButton = styled.button`
   padding: 0;
   margin: 0;
   font-size: 12px;
+  letter-spacing: 0.48px;
 
   color: #52555f;
   cursor: pointer;
