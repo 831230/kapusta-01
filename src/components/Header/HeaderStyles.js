@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.header`
   display: flex;
@@ -12,9 +13,15 @@ export const HeaderWrapper = styled.div`
   width: 1280px;
 
   padding: 12px;
+
+  @media screen and (max-width: 768px) {
+    width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
 `;
 
-export const HeaderLogoLink = styled.a``;
+export const HeaderLogoLink = styled(Link)``;
 
 export const HeaderUserContainer = styled.div`
   display: flex;
