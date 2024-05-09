@@ -19,6 +19,11 @@ export const HeaderWrapper = styled.div`
     padding-left: 32px;
     padding-right: 32px;
   }
+  @media screen and (max-width: 320px) {
+    width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const HeaderLogoLink = styled(Link)``;
@@ -28,6 +33,10 @@ export const HeaderUserContainer = styled.div`
   justify-content: center;
   align-items: center;
   gap: 40px;
+
+  @media screen and (max-width: 768px) {
+    gap: 16px;
+  }
 `;
 
 export const HeaderExitButton = styled.button`

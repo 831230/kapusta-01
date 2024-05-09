@@ -20,4 +20,7 @@ export const HeaderUserName = styled.p`
   margin: 0;
   font-size: 12px;
   letter-spacing: 0.48px;
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
 `;
