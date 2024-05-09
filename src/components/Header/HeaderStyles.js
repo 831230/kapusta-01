@@ -50,4 +50,16 @@ export const HeaderExitButton = styled.button`
   color: #52555f;
   cursor: pointer;
   border-bottom: 1px solid #52555f;
+
+  @media screen and (max-width: 320px) {
+    display: none;
+  }
+`;
+
+export const HeaderExitIcon = styled.div`
+  display: none;
+
+  @media screen and (max-width: 320px) {
+    display: block;
+  }
 `;
