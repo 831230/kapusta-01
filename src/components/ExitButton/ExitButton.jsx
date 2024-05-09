@@ -1,7 +1,5 @@
 const ExitButton = () => {
-  return ( 
-    <button>Exit</button>
-   );
-}
- 
+  return <button>Exit</button>;
+};
+
 export default ExitButton;
