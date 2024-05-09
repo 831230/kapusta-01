@@ -29,13 +29,29 @@ export const HeaderWrapper = styled.div`
 export const HeaderLogoLink = styled(Link)``;
 
 export const HeaderUserContainer = styled.div`
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 40px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 320px) {
     gap: 16px;
+  }
+`;
+
+export const HeaderUserDivider = styled.div`
+  width: 1px;
+  height: 36px;
+  flex-grow: 0;
+  margin: 0 19.5px;
+  background-color: #e0e5eb;
+
+  position: absolute;
+  right: 25px;
+
+  @media screen and (max-width: 320px) {
+    display: none;
   }
 `;
 
@@ -56,8 +72,12 @@ export const HeaderExitButton = styled.button`
   }
 `;
 
-export const HeaderExitIcon = styled.div`
+export const HeaderExitIcon = styled.button`
   display: none;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
 
   @media screen and (max-width: 320px) {
     display: block;
