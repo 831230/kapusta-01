@@ -4,16 +4,16 @@ import { Outlet } from "react-router-dom";
 import Header from "../Header/Header";
 
 const WebAppTemplate = () => {
-  return ( 
+  return (
     <>
-      <Header/>
+      <Header />
       <main>
         <Suspense fallback={<div>...is loading</div>}>
           <Outlet />
         </Suspense>
       </main>
     </>
-   );
-}
- 
+  );
+};
+
 export default WebAppTemplate;
