@@ -26,7 +26,10 @@ export const HeaderWrapper = styled.div`
   }
 `;
 
-export const HeaderLogoLink = styled(Link)``;
+export const HeaderLogoLink = styled(Link)`
+  width: 90px;
+  height: 31px;
+`;
 
 export const HeaderUserContainer = styled.div`
   position: relative;
@@ -78,6 +81,9 @@ export const HeaderExitIcon = styled.button`
   background: none;
   padding: 0;
   margin: 0;
+
+  width: 16px;
+  height: 16px;
 
   @media screen and (max-width: 320px) {
     display: block;

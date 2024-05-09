@@ -14,7 +14,7 @@ const Header = () => {
     <HeaderContainer>
       <HeaderWrapper>
         {/* Placeholder svg do podmianki */}
-        <HeaderLogoLink href="">
+        <HeaderLogoLink>
           <svg width="90" height="31">
             <rect width="90" height="31" stroke="orange" fill="orange" />
           </svg>
