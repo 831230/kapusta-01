@@ -1,3 +1,4 @@
+import UserData from "../UserData/UserData.jsx";
 import {
   HeaderContainer,
   HeaderWrapper,
@@ -20,11 +21,7 @@ const Header = () => {
           </svg>
         </HeaderLogoLink>
         <HeaderUserContainer>
-          <HeaderUserData>
-            {/* Placeholder img do podmianki */}
-            <HeaderUserIcon src="https://placehold.co/32x32" alt="User icon" />
-            <HeaderUserName>User name</HeaderUserName>
-          </HeaderUserData>
+          <UserData></UserData>
           <HeaderExitButton>Exit</HeaderExitButton>
         </HeaderUserContainer>
       </HeaderWrapper>
